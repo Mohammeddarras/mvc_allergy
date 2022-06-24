@@ -1,18 +1,13 @@
-import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:get/get.dart' as GET;
 import 'package:get/get_core/src/get_main.dart';
-import 'package:http/http.dart';
 import 'package:mvc_allergy_app/Config/size_config.dart';
 import 'package:mvc_allergy_app/Constant/constant.dart';
 import 'package:mvc_allergy_app/Controller/allergy_controller.dart';
-import 'package:mvc_allergy_app/View/AllergyItemScreen/allergy_item_screen.dart';
 import 'package:mvc_allergy_app/View/ForgotScreen/forgot_password_screen.dart';
-import 'package:mvc_allergy_app/View/HomeScreen/home_screen.dart';
 import 'package:mvc_allergy_app/View/Register/register.dart';
-import 'package:shared_preferences/shared_preferences.dart';
 
 
 class Login extends StatefulWidget {

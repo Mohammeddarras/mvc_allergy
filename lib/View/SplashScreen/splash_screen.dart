@@ -2,7 +2,6 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:http/http.dart';
 import 'package:mvc_allergy_app/Controller/allergy_controller.dart';
 import 'package:mvc_allergy_app/View/Login/login.dart';
 import 'package:shared_preferences/shared_preferences.dart';

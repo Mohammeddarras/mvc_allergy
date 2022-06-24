@@ -1,15 +1,12 @@
-import 'dart:convert';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:http/http.dart';
 import 'package:get/get.dart';
 import 'package:loading_overlay/loading_overlay.dart';
 import 'package:mvc_allergy_app/Constant/constant.dart';
 import 'package:mvc_allergy_app/Controller/allergy_controller.dart';
 import 'package:mvc_allergy_app/Model/allergy_info.dart';
 import 'package:mvc_allergy_app/View/Dialog/save_dialog.dart';
-import 'package:mvc_allergy_app/View/ForgotScreen/forgot_password_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class AllergyItemScreen extends StatefulWidget {

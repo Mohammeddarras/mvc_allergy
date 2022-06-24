@@ -7,8 +7,7 @@ import 'package:get/get_core/src/get_main.dart';
 import 'package:get/get_navigation/src/extension_navigation.dart';
 import 'package:mvc_allergy_app/Model/allergy_info.dart';
 
-FutureOr<String?> showAllergy(final List<Allergy> items,
-    {final String text = ''}) async {
+FutureOr<String?> showAllergy(final List<Allergy> items, {final String text = ''}) async {
   final dialog = await Get.dialog(
     Dialog(
       child: Padding(
